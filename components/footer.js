@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Header() {
+export default function Footer() {
   return (
     <footer>
       <div className='car-top default show'>
