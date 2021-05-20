@@ -10,8 +10,7 @@ import ContactUS from '../components/ContactUsCommon';
 const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
   ssr: false,
 });
-
-export default function Home() {
+const Home = () => {
   const router = useRouter();
   return (
     <main className='content'>
@@ -464,4 +463,6 @@ export default function Home() {
       <Footer />
     </main>
   );
-}
+};
+
+export default Home;

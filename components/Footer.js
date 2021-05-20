@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Footer() {
+const Footer = () => {
   return (
     <footer>
       <div className='car-top default show'>
@@ -74,4 +74,5 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};
+export default Footer;
